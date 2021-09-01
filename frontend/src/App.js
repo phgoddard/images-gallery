@@ -17,6 +17,7 @@ const handleSearchSubmit = (e) => {
       .catch((err) => {
         console.log(err);
       })
+  setWord('');
 }
 
   return (
